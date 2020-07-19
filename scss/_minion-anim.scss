@@ -1,0 +1,57 @@
+.minion-pc-svg{
+
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    
+
+     
+    #minion-ba{
+        animation: minionb 5s linear infinite;
+        transform-origin: center;
+        transform-box: fill-box;
+       
+    }
+
+        @keyframes minionb{
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(3deg);
+            
+            }
+
+            100%{
+                transform: rotate(-1deg);
+            
+            }
+        }
+
+        #minion-yellow{
+            animation: miniony 5s linear infinite;
+            transform-origin: center;
+            transform-box: fill-box;
+           
+        }
+    
+            @keyframes miniony{
+                0%{
+                    transform: rotate(0deg);
+                }
+                50%{
+                    transform: rotate(-6deg);
+                
+                }
+    
+                100%{
+                    transform: rotate(1deg);
+                
+                }
+            }
+
+
+}

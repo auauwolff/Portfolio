@@ -1,0 +1,26 @@
+header{
+    padding: 20px;
+    background-color: white;
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            width: 20%;
+        }
+
+        ul{
+            display: flex;
+            
+            li{
+                padding: .1em .5em .1em .5em;
+                font-size: 14rem;
+                color: #CCCCCC;
+            }
+        }
+    }
+
+}
+
