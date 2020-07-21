@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="57" height="56" viewBox="0 0 57 56">
-  <g id="tap-logo" transform="translate(2.696 0.716)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(-2.696 -0.716)" fill="none" stroke="#fff" stroke-width="1">
-      <ellipse cx="28.5" cy="28" rx="28.5" ry="28" stroke="none"/>
-      <ellipse cx="28.5" cy="28" rx="28" ry="27.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="296" height="292" viewBox="0 0 296 292">
+  <g id="Group_30" data-name="Group 30" transform="translate(-171 -27)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(171 27)" fill="none" stroke="#fff" stroke-width="3">
+      <ellipse cx="148" cy="146" rx="148" ry="146" stroke="none"/>
+      <ellipse cx="148" cy="146" rx="146.5" ry="144.5" fill="none"/>
     </g>
-    <text id="Tap" transform="translate(9.304 20.284)" fill="#fff" font-size="10" font-family="Montserrat-Light, Montserrat" font-weight="300" letter-spacing="0.24em"><tspan x="0" y="0">TAP</tspan></text>
-    <text id="Grind" transform="translate(9.304 30.284)" fill="#fff" font-size="9" font-family="Montserrat-Light, Montserrat" font-weight="300" letter-spacing="0.05em"><tspan x="0" y="0">GRIND</tspan></text>
-    <text id="_" data-name="&amp;" transform="translate(36.304 20.284)" fill="#fff" font-size="10" font-family="Montserrat-Light, Montserrat" font-weight="300"><tspan x="0" y="0">&amp;</tspan></text>
-    <text id="Cafe" transform="translate(17.304 43.284)" fill="#fff" font-size="6" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.1em"><tspan x="0" y="0">CAFE</tspan></text>
-    <line id="Line_1" data-name="Line 1" x2="4.967" transform="translate(23.458 35.634)" fill="none" stroke="#fff" stroke-width="1"/>
+    <text id="Tap" transform="translate(224 130)" fill="#fff" font-size="54" font-family="Montserrat-Light, Montserrat" font-weight="300" letter-spacing="0.24em"><tspan x="0" y="0">TAP</tspan></text>
+    <text id="Grind" transform="translate(219 189)" fill="#fff" font-size="54" font-family="Montserrat-Light, Montserrat" font-weight="300" letter-spacing="0.05em"><tspan x="0" y="0">GRIND</tspan></text>
+    <text id="_" data-name="&amp;" transform="translate(377 134)" fill="#fff" font-size="58" font-family="Montserrat-Light, Montserrat" font-weight="300"><tspan x="0" y="0">&amp;</tspan></text>
+    <text id="Cafe" transform="translate(261 253)" fill="#fff" font-size="37" font-family="Montserrat-SemiBold, Montserrat" font-weight="600" letter-spacing="0.1em"><tspan x="0" y="0">CAFE</tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="25.408" transform="translate(308.096 209.326)" fill="none" stroke="#fff" stroke-width="2"/>
   </g>
 </svg>

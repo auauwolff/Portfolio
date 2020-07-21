@@ -3,13 +3,19 @@
     flex-direction: column;
     align-items: center;
     background-color: rgba(108, 99, 255, 0.4);
+    padding: 30px 0 0px 0;
     margin-top: -4px;
-    padding-bottom: 10px;
 
        h1{
            color: #3F3D56;
            margin-top: 30px;
+           font-size: 20rem;
+           font-weight: bold;
 
+       }
+
+       .ipad{
+           width: 75%;
        }
 
        .meal-svg{
@@ -18,12 +24,13 @@
            display: flex;
            align-items: center;
            justify-content: center;
+           margin-left: 80px;
                
                #meal-svg{
                    animation: meal 5s linear infinite;
                    transform-origin: center;
                    transform-box: fill-box;
-                   width: 200px;
+                   width: 30%;
                    filter: brightness(110%);
                }
 

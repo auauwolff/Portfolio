@@ -3,11 +3,13 @@
     flex-direction: column;
     align-items: center;
     background-image: linear-gradient(to bottom right, rgba(251,176,59,0.6), rgba(251,176,59,1.0));
-    padding-bottom: 10px;
+    padding: 30px 0 60px 0;
 
         h1{
             color: white;
             margin-top: 30px;
+            font-size: 20rem;
+            font-weight: bold;
 
         }
 
@@ -17,14 +19,16 @@
            display: flex;
            align-items: center;
            justify-content: space-evenly;
+           margin-top: 35px;
 
             
             .laptop{
                 margin-top: 28px;
+                width: 55%;
             }
 
             .taplogo{
-                width: 60px;
+                width: 25%;
                 margin-left: 13px;
                 
             }
