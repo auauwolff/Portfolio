@@ -18,14 +18,14 @@
     .modal{
         position: relative;
         background-color: white;
-        width: 65%;
-        height: 65%;
+        //width: 300px;
+        //height: 400px;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
         border-radius: 1em;
-        padding: 50px 0;
+        padding: 25px 50px;
 
             h3{
                 font-weight: bold;
