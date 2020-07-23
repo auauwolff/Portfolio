@@ -15,8 +15,9 @@ header{
             display: flex;
             
             li{
-                padding: .1em .5em .1em .5em;
-                font-size: 10rem;
+                padding: 0px 20px;
+               // padding: .1em .5em .1em .5em;
+                font-size: 15rem;
                 color: #CCCCCC;
                 cursor: pointer;
             }
@@ -26,6 +27,7 @@ header{
                 border-radius: 10px;
                 color: #E64C89;
                 padding: 1px 5px;
+                font-size: 14rem;
             }
         }
     }
