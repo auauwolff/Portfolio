@@ -6,19 +6,31 @@
 @import "social-media";
 @import "together";
 
-.hero-text{
+.hero{
     text-align: center;
-    color: #cccccc;
-    font-style: italic;
-    font-size: 25rem;
-    margin: -90px 0 0px 0;
-    padding: 0 10px;
-    height: 50vh;
+        .hero-text{
+            text-align: center;
+            color: #cccccc;
+            font-style: italic;
+            font-size: 25rem;
+            margin: -60px 0 60px 0;
+            padding: 0 10px;
 
-    b{
-        font-style: normal;
-    }
-    
+            b{
+                font-style: normal;
+            }
+            
+        }
+
+        button{
+            background-color: #FF9399;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            font-size: 12rem;
+            
+        }
 }
 
 section{
