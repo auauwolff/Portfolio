@@ -5,8 +5,18 @@ footer{
     flex-direction: column;
     background-color:#2F2E41;
     padding: 10px;
+   
+    @include for-tablet-landscape-up{
+       margin-top: 5%;
+        
+    }
 
         img{
             width: 20%;
+
+                @include for-tablet-landscape-up{
+                    width: 10%;
+                    
+                }
         }
 }

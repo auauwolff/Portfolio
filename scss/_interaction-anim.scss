@@ -13,6 +13,10 @@
            font-size: 25rem;
            font-weight: bold;
 
+                @include for-tablet-landscape-up{
+                    font-size: 30rem;
+                }
+
        }
 
        button{
@@ -22,12 +26,21 @@
            border-radius: 10px;
            margin-bottom: 50px;
            font-size: 15rem;
+
+                @include for-tablet-landscape-up{
+                   font-size: 18rem;
+                   margin-bottom: 70%;
+                }
        }
 
        .ipad{
            width: 75%;
            display: block;
            overflow: hidden;
+
+                @include for-tablet-landscape-up{
+                    width: 65%;
+                }
        }
 
        .meal-svg{
@@ -37,6 +50,10 @@
            align-items: center;
            justify-content: center;
            margin-left: 80px;
+
+                @include for-tablet-landscape-up{
+                    margin: 5% 0px 5% 15%;
+                }
                
                #meal-svg{
                    animation: meal 5s linear infinite;
@@ -44,6 +61,10 @@
                    transform-box: fill-box;
                    width: 30%;
                    filter: brightness(110%);
+
+                        @include for-tablet-landscape-up{
+                            width: 20%;
+                        }
                }
 
                @keyframes meal{

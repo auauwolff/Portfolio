@@ -1,5 +1,6 @@
 .hero{
     text-align: center;
+    
         .hero-text{
             text-align: center;
             color: #cccccc;
@@ -7,6 +8,13 @@
             font-size: 25rem;
             margin: -60px 0 70px 0;
             padding: 0 10px;
+
+                    @include for-tablet-landscape-up{
+                        margin: 0px 0 70px 0;
+                        font-size: 30rem;
+                        padding: 0 40px;
+                    }
+
 
             b{
                 font-style: normal;
@@ -22,6 +30,10 @@
             margin-bottom: 90px;
             font-size: 15rem;
             
+                @include for-tablet-landscape-up{
+                    font-size: 18rem;
+                    padding: 10px 25px;
+                }
             
         }
 
@@ -34,10 +46,19 @@
             margin-bottom: 90px;
             margin-left: 30px;
             font-size: 15rem;
-            
+
+                @include for-tablet-landscape-up{
+                    margin-left: 10%;
+                    font-size: 18rem;
+                }
+ 
         }
 }
 
 .minion-cup{
     width: 30%;
+
+        @include for-tablet-landscape-up{
+            width: 20%;
+        }
 }

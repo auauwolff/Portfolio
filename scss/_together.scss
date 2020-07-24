@@ -15,6 +15,11 @@
         font-size: 15rem;
         font-weight: 600;
         margin-top: 80px;
+
+            @include for-tablet-landscape-up{
+                font-size: 18rem;
+                
+            }
     }
 
     h1{
@@ -23,6 +28,10 @@
         font-weight: bold;
         padding: 0 40px;
         text-align: center;
+
+            @include for-tablet-landscape-up{
+                font-size: 30rem;
+            }
 
         span{
             color: #FF9399;

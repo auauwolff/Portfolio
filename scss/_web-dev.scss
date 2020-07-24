@@ -12,6 +12,11 @@
             padding: 10px 15px;
             border-radius: 10px;
             font-size: 15rem;
+
+                @include for-tablet-landscape-up{
+                    font-size: 18rem;
+                    margin-bottom: 30%;
+                }
         }
 
         h1{
@@ -19,6 +24,9 @@
             margin-top: 50px;
             font-size: 25rem;
             font-weight: bold;
+                @include for-tablet-landscape-up{
+                    font-size: 30rem;
+                }
 
         }
 
@@ -31,14 +39,24 @@
            margin-top: 10px;
            margin-bottom: 50px;
 
+                @include for-tablet-landscape-up{
+                    margin-bottom: 2%;
+                }
+
             
             .laptop{
                 width: 100%;
+                    @include for-tablet-landscape-up{
+                        width: 90%;
+                    }
             }
 
             .taplogo{
                 width: 25%;
                 margin-left: 42%;
+                    @include for-tablet-landscape-up{
+                        width: 20%;
+                    }
                 
             }
         }

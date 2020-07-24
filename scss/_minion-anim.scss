@@ -7,8 +7,16 @@
     align-items: center;
     margin-top: -50px;
 
+            @include for-tablet-landscape-up{
+                margin-top: 20px;
+            }
+
     svg{
         width: 60%;
+
+            @include for-tablet-landscape-up{
+                width: 50%;
+            }
     }
 
     #minion-ba{

@@ -9,6 +9,10 @@ header{
 
         img{
             width: 20%;
+
+                @include for-tablet-landscape-up{
+                    width: 15%;
+                }
         }
 
         ul{
@@ -20,6 +24,11 @@ header{
                 font-size: 15rem;
                 color: #CCCCCC;
                 cursor: pointer;
+
+                    @include for-tablet-landscape-up{
+                        font-size: 18rem;
+                        padding: 0px 40px;
+                    }
             }
 
             .contact{
@@ -28,6 +37,10 @@ header{
                 color: #E64C89;
                 padding: 1px 5px;
                 font-size: 14rem;
+
+                    @include for-tablet-landscape-up{
+                        font-size: 17rem;
+                    }
             }
         }
     }
