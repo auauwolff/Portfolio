@@ -18,5 +18,10 @@ footer{
                     width: 10%;
                     
                 }
+
+                    @include for-desktop-up{
+                        width: 6%;
+                        
+                    }
         }
 }

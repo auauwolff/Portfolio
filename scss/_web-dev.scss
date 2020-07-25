@@ -17,6 +17,11 @@
                     font-size: 18rem;
                     margin-bottom: 30%;
                 }
+
+                    @include for-desktop-up{
+                        font-size: 20rem;
+                        
+                    }
         }
 
         h1{
@@ -49,6 +54,11 @@
                     @include for-tablet-landscape-up{
                         width: 90%;
                     }
+
+                        @include for-desktop-up{
+                            width: 80%;
+                            
+                        }
             }
 
             .taplogo{
@@ -57,6 +67,11 @@
                     @include for-tablet-landscape-up{
                         width: 20%;
                     }
+
+                        @include for-desktop-up{
+                            width: 15%;
+                            
+                        }
                 
             }
         }

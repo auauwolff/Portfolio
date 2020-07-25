@@ -39,5 +39,10 @@
                 width: 55%;
                 margin: 8% 0;
             }
+
+                @include for-desktop-up{
+                    width: 45%;
+                    
+                }
     }
 }

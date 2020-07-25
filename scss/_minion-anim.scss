@@ -11,12 +11,24 @@
                 margin-top: 20px;
             }
 
+                @include for-desktop-up{
+                    margin-top: 100px;
+                    
+                    
+                }
+
     svg{
         width: 60%;
 
             @include for-tablet-landscape-up{
                 width: 50%;
             }
+
+                @include for-desktop-up{
+                    width: 70%;
+                    
+                    
+                }
     }
 
     #minion-ba{
